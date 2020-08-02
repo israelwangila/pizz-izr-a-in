@@ -39,3 +39,14 @@
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
+.carousel-inner img {
+    width: 100%; 
+    margin: auto;
+}
+
+.carousel-caption {
+background: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}

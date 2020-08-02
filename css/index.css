@@ -210,7 +210,12 @@ inline-block {
       -webkit-transform: translateY(0%);
   }
 }
-.row{
-    text-align: center;
+.order-overlay{
+    background-color: rgba(0, 0, 0,0.5);
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right: 16px;
+    padding-left: 16px;
 }
   
+

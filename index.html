@@ -316,5 +316,23 @@
       });
     } // End if
   });
+  $(".slideanimate").each(function(){
+        $(this).stop().delay(1000).addClass("slide");
+    });
+  
+    $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+    
+      var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
+    });
+    });
+    
+})
+
+</script>
 </body>
 </html>

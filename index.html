@@ -266,5 +266,24 @@
       </article>
     </div>
   </section>
+  <section id="location" class="container">
+    <h3 class="text-center slideanim">Location</h3>
+    <!-- Add Google Maps -->
+    <div id="googleMap" class="slideanim"></div>
+    <script>
+    function myMap() {
+    var myCenter = new google.maps.LatLng(53.3498,-6.2603);
+    var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker = new google.maps.Marker({position:myCenter});
+    marker.setMap(map);
+    }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlW-uV2f7rzdz0e_ZADMv5kTKH8wXxB50&callback=myMap"></script>
+    <!--
+    To use this code on your website, get a free API key from Google.
+    Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+    -->
+    </section>
 </body>
 </html>

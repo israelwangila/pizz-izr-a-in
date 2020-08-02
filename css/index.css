@@ -50,3 +50,7 @@ background: rgba(0, 0, 0, 0.5);
 .carousel-caption h3 {
     color: #fff !important;
 }
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}

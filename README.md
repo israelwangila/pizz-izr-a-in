@@ -1,7 +1,7 @@
-# delani-studio
+# Piz-zr-a
 
 ## DESCRIPTION
- Piz-zra website for a pizza restorant 
+ Piz-zr-a website for a pizza restorant 
 
 ## SETUP
 To get the project:

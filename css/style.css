@@ -175,19 +175,7 @@ inline-block {
     display: none; /* Hide the carousel p text when the screen is less than 768 pixels wide */
   }
 }
-/*Animation effect*/
-.slideanimate {visibility:hidden;}
-.slideanim {visibility:hidden;}
-.slide {
-  /* The name of the animation */
-  animation-name: slide;
-  -webkit-animation-name: slide; 
-  /* The duration of the animation */
-  animation-duration: 1s; 
-  -webkit-animation-duration: 1s;
-  /* Make the element visible */
-  visibility: visible; 
-}
+
 
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
 @keyframes slide {
